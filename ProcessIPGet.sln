@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessIPGet", "ProcessIPGet\ProcessIPGet.csproj", "{66478605-91CE-40A7-8827-19232E055D6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IphlpapiEx", "IphlpapiEx\IphlpapiEx.csproj", "{636D5ACE-9FC7-4384-A10F-BC1ACAED24B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketCaptureEx", "PacketCaptureEx\PacketCaptureEx.csproj", "{5CF4E219-08DD-4B4C-9C83-87BC8A8BD00E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7128C1CC-C354-491C-9690-C67909D05DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T_NetworkPerformance", "T_NetworkPerformance\T_NetworkPerformance.csproj", "{939E2065-BBB6-4CC9-9D12-4B9C054ED105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T_ProcessTcpConnections", "T_ProcessTcpConnections\T_ProcessTcpConnections.csproj", "{DE9D4C52-D521-4E0B-A130-6217C146B45E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66478605-91CE-40A7-8827-19232E055D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66478605-91CE-40A7-8827-19232E055D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66478605-91CE-40A7-8827-19232E055D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66478605-91CE-40A7-8827-19232E055D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636D5ACE-9FC7-4384-A10F-BC1ACAED24B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636D5ACE-9FC7-4384-A10F-BC1ACAED24B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636D5ACE-9FC7-4384-A10F-BC1ACAED24B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636D5ACE-9FC7-4384-A10F-BC1ACAED24B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF4E219-08DD-4B4C-9C83-87BC8A8BD00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF4E219-08DD-4B4C-9C83-87BC8A8BD00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF4E219-08DD-4B4C-9C83-87BC8A8BD00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF4E219-08DD-4B4C-9C83-87BC8A8BD00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939E2065-BBB6-4CC9-9D12-4B9C054ED105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939E2065-BBB6-4CC9-9D12-4B9C054ED105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939E2065-BBB6-4CC9-9D12-4B9C054ED105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939E2065-BBB6-4CC9-9D12-4B9C054ED105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9D4C52-D521-4E0B-A130-6217C146B45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9D4C52-D521-4E0B-A130-6217C146B45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9D4C52-D521-4E0B-A130-6217C146B45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9D4C52-D521-4E0B-A130-6217C146B45E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{939E2065-BBB6-4CC9-9D12-4B9C054ED105} = {7128C1CC-C354-491C-9690-C67909D05DA7}
+		{DE9D4C52-D521-4E0B-A130-6217C146B45E} = {7128C1CC-C354-491C-9690-C67909D05DA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {891546C9-5A5B-4E9C-AC95-BBE5B6BC1BCE}
+	EndGlobalSection
+EndGlobal
